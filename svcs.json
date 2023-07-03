@@ -1,0 +1,22 @@
+[
+    {
+        "name":"localhttp",
+        "url":"localhost:3333",
+        "process": {
+            "name": "main.exe",
+            // both slashes works
+            "path": "C:/Users/marti/OneDrive/src/github.com/martinkunc/go-simple-api/main.exe"
+        },
+        "endpoints": {
+            "root": { "suffix": "/" },
+            "hello": { "suffix": "/hello" }
+        }
+    },
+    {
+        "name":"google",
+        "url":"google.com",
+        "endpoints": {
+            "root": { "suffix": "/" }
+        }
+    }
+]
